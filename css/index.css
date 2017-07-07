@@ -1,0 +1,254 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+/** {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+/*}*/
+
+@viewport{
+	width:device-width;
+	zoom:1;
+	
+	
+}
+page
+{
+	width:device-width;
+	height:device-height;	
+	zoom:1;
+	background:url(../img/header%202nd.png);
+	
+
+}
+
+
+
+/*.ui-content
+{
+	padding:5px !important;
+	margin:0; !important;
+}
+
+.imgcontent
+{
+	padding: 0; 
+    margin: 0; 
+    list-style: none;     
+
+}
+.imgcontent li { 
+    float: left; 
+    width: 50%; 
+}*/
+/*@media all and (min-width: 480px){
+	.tab{
+		width:20% !important;
+		clear:none !important;
+	}
+}
+@media only screen and (min-width: 768px){
+	.tab{
+		width:20% !important;
+		clear:none !important;
+	}*/
+	
+	
+/*.ui-block-a img{
+	
+	width  : 100%;
+       height : auto;
+}
+.ui-block-b img{
+	
+	width  : 100%;
+       height : auto;
+}
+.ui-block-c img{
+	
+	width  : 100%;
+       height : auto;
+}*/
+
+.ui-grid-b img {
+	width  : 95%;
+       height : auto;
+	   padding:6px;
+}
+.ui-grid-b img .show{
+	 display: block; 
+    width: 80%; 
+    height: auto; 	  
+}
+.ui-grid-b a {
+	border-bottom:none;
+	
+}
+.ui-content {
+    padding:2px !important; 
+    margin: 0 !important;
+	
+}
+.navbar
+{
+	width:100%!important;
+	height:auto;
+	
+}
+.tab{
+	width:20%!important;
+}
+.detail{
+	width:80%;
+	padding-top:8px;
+}
+.product{
+		
+		margin-left:15px;
+}
+.ui-grid-solo img
+{
+	width:90%;
+	padding-top:8px;
+	height:50%;
+}
+.featureditem {
+	
+	margin-left:9px;
+	
+}
+.navtab li a
+{
+	font-size:9px !important;
+	
+}
+.gallanticlogo
+{
+	width:100%;
+	height:100%;
+}
+.header{
+	background-image:url(../img/header%202nd.png)!important;
+	width:100%!important;
+}
+@media screen and (max-width:480px){
+	ui.header{
+		width:100%!important;
+	}
+}
+.ui-icon-myicon
+{
+	background-image: url(../img/lastheader.png) !important;
+	width:22px !important;
+	height:22px!important;
+	
+   
+  
+
+}
+
+
+.az-nodisc {
+    background-color: transparent !important;
+    border: none;
+    box-shadow: none;
+}
+#demo-page{
+			-webkit-user-select:none;
+			    -moz-user-select: none;
+			    -ms-user-select: none;
+			    -o-user-select: none;
+			    user-select: none;
+
+
+
+
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+	.ui-icon-myicon
+{
+	background-image: url(../img/mamats.png)   !important;
+	width:26px !important;
+	height:25px!important;
+}
+}
+
+/*<<<<<<<<---------------------sample sqlite function------------------>>>>>>>>>>>>>>*/
+
+body {
+	-webkit-text-size-adjust: none;
+	background: #5a5959 url(../images/menuBg.gif) top left repeat-y;
+}
+.pages h3 {
+	font-size: 20px;
+	margin: 0;
+}
+#menu {
+	background-color:#5a5959;
+	float: left;
+	height: 100%;
+	width: 300px;
+}
+#menu h3 {
+	font-family: arial;
+	font-size: 18px;
+	color: #fff;
+	margin: 0;
+	padding: 4px 0 4px 10px;
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(5%,rgba(90,89,89,1)),color-stop(85%,rgba(66,65,65,1)));
+	border-top: solid #6b6b6b 1px;
+	border-bottom: solid #3d3d3d 1px;
+	text-shadow: 0 -1px 1px #333;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	width: inherit;
+}
+#menu ul li a:link,
+#menu ul li a:visited {
+	border-bottom: solid #333 1px;
+	box-shadow: 0 1px 0 #727272;
+	color:#fff;
+	display: block;
+	font-family: arial;
+	font-size: 20px;
+	padding: 10px 0 10px 10px;
+	text-decoration:none;
+	text-shadow: 0 1px 1px #000;
+	width: 300px;
+}
+#menu ul li a:hover,
+#menu ul li a:active {
+	background-color: #716f6f;
+}
+.ui-body-c {
+	background-color: #fff;
+	line-height: 18px;
+}
+.active {
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(30,29,29,1)),color-stop(21%,rgba(56,55,55,1)));
+	color: #fff;
+	text-shadow: 0 1px 1px #000;
+}
+.tab-content {
+    display:none;
+}
+.tab-content:first-child {
+    display:block;
+}
