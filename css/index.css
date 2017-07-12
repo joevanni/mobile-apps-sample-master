@@ -161,6 +161,16 @@ page
 
 }
 
+.ui-icon-bullets
+{
+	background-image: url(../img/bullets.png) !important;
+	width:22px !important;
+	height:22px!important;
+	
+   
+  
+
+}
 
 .az-nodisc {
     background-color: transparent !important;
