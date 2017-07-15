@@ -280,6 +280,7 @@ body {
     text-align:center;
 }
 .ui-page .ui-content .ui-btn.my-btn .ui-btn-inner {
-    color      : #ffff;
+    color      :#fff;
     background :blue;
+   	width:50px;
 }​
