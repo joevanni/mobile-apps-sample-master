@@ -279,4 +279,5 @@ body {
 /* Top margin for some elements */
 .mc-top-margin-1-5 {
     margin-top:2.5em;
+    text-align:center;
 }
