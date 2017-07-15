@@ -282,5 +282,7 @@ body {
 .ui-page .ui-content .ui-btn.my-btn .ui-btn-inner {
     color      :#fff;
     background :blue;
-   	width:50px;
-}​
+ }
+ .ui-btn {
+    width: 200px !important;
+}
