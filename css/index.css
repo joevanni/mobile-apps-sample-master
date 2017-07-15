@@ -273,6 +273,7 @@ body {
 /* Center-aligned text */
 .mc-text-center {
     text-align:center;
+    
 }
 /* Top margin for some elements */
 .mc-top-margin-1-5 {
@@ -285,5 +286,5 @@ body {
  }
  .my-btn {
     width: 200px !important;
-    
+
 }
