@@ -269,9 +269,7 @@ body {
     border-radius: .3125em;
 }
 /* Change color of jQuery Mobile page headers */
-.ui-title {
-    color:#fff;
-}
+
 /* Center-aligned text */
 .mc-text-center {
     text-align:center;
@@ -281,3 +279,7 @@ body {
     margin-top:2.5em;
     text-align:center;
 }
+.ui-page .ui-content .ui-btn.my-btn .ui-btn-inner {
+    color      : #ffff;
+    background :blue;
+}​
