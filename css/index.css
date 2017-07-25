@@ -288,3 +288,18 @@ body {
     width: 200px !important;
 
 }
+#txt-email
+{
+	width: 250px !important;
+}
+#txt-password
+{
+	width: 250px !important;
+}
+#-rememberme
+{
+	width: 20px !important;
+	height: 17px !important;
+margin-left: 580px;
+margin-top: 1px;
+}
