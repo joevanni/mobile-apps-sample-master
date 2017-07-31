@@ -168,6 +168,30 @@ page
   
 
 }
+.howbtn
+{
+	background-image: url(../img/howit.png)!important;
+	width: 250px !important;
+	height: 80px !important;
+}
+.chat
+{
+	background-image: url(../img/chat.png)!important;
+	width: 250px !important;
+	height: 80px !important;
+}
+.order
+{
+	background-image: url(../img/order.png)!important;
+	width: 250px !important;
+	height: 80px !important;
+}
+.setting
+{
+	background-image: url(../img/setting.png)!important;
+	width: 250px !important;
+	height: 80px !important;
+}
 .backicon
 {
 	background-image: url(../img/back.png) !important;
