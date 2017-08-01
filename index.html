@@ -294,7 +294,7 @@ $(document).delegate('#page', 'swipeleft', function () {
      </div>
      
  </div>-->
- <div data-role="page"  class="pages" id="page4">
+ <div data-role="page"  class="pages" id="page4" >
      
   <div data-role="header" style="background-image: url(img/decastro.png);  background-size:100% 130px;" data-position="fixed">
         
@@ -311,7 +311,7 @@ $(document).delegate('#page', 'swipeleft', function () {
       
        </div>
   
-<div data-role="main" class="ui-content">
+<div data-role="main" class="ui-content" style="background-color:rgb(255,209,193);">
 
   <p>&nbsp;</p>
     <p>&nbsp;</p>
@@ -320,17 +320,50 @@ $(document).delegate('#page', 'swipeleft', function () {
 <p>&nbsp;</p>
 <a href="#"  data-role="button" class="chat"></a>
 <p>&nbsp;</p>
-<a href="#"  data-role="button" class="order"></a>
+<a href="#page5"  data-role="button" class="order"></a>
 <p>&nbsp;</p>
 <a href="#"  data-role="button" class="setting"></a>
 </center>
 
 
      
- 
  </div>
-        
+ </div>
 
+  
+   <div data-role="page" id="page5">
+
+<div data-role="header" style="background-image: url(img/decastro.png);  background-size:100% 130px;" data-position="fixed">
+        
+    <a href="#page4"   class="backicon" data-transition="slide" ></a>
+  <a href="#menu" data-icon="button" data-iconpos="notext" class="az-nodisc ui-btn ui-icon-myicon  ui ui-btn-icon-notext ui-nodisc-icon" data-position="fixed"></a> 
+    
+<!--<a href="#" data-icon="button" data-iconpos="notext" class="az-nodisc ui-btn ui-icon-bullets  ui ui-btn-icon-notext ui-nodisc-icon" data-position="right"></a> -->
+  
+    
+       <p>&nbsp;</p>
+       <p>&nbsp;</p>
+        <p>&nbsp;</p>
+     
+       </div>
+  
+  <div data-role="main" class="ui-content" style="background-color:rgb(255,236,154);">
+
+  <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  <center><h2>Order</h2>
+    <br>
+    <div id="container">
+        <label for="fullname">Full Name</label>
+        <input type="text" name="fullname" id="fullname" value="">
+        <label for="address">Address</label>
+        <input type="text" name="address" id="address" value="">
+        <label for="number">Number of water Gallon</label>
+        <input type="text" name="number" id="number" value="">
+        <br>
+        <a href="#page4" data-rel="popup" data-transition="pop" data-position-to="window" id="btn-submit" class="ui-btn ui-btn-b ui-corner-all mc-top-margin-1-5">Submit</a>
+            <p>&nbsp;</p></div>
+        </center>
 <!--<h3 class="featureditem">Featured Items</h3>
 
 
@@ -399,8 +432,8 @@ $(document).delegate('#page', 'swipeleft', function () {
                  <!--   <div data-role="footer" data-position="fixed" data-theme="c">
        <h4>Footer</h4>
      </div>-->
-       </div>
-     </div>
+      <!-- </div>
+     </div>-->
     <div data-role="page" id="page8">
       <div data-role="header" style="background-image: url(img/bago.jpg);  background-size:100% 130px;" data-position="fixed">
         

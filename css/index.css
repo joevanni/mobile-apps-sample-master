@@ -363,6 +363,7 @@ body {
 
 
 
+
 }
 #txt-last-name
 {
@@ -375,4 +376,23 @@ body {
 	width: 250px !important;
 	height: 17px !important;
 
+}
+#fullname 
+{
+	width: 250px !important;
+}
+#address
+{
+	width: 250px !important;
+}
+#number
+{
+	width: 250px !important;
+}
+#container
+{
+	width:300px;
+	height:auto;
+	background-color: #fff;
+	
 }
