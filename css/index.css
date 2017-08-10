@@ -398,4 +398,5 @@ body {
 .newbanner
 {
 	background-image: url(../img/decastro.png)!important;  background-size:100% 130px!important;
+	background-repeat: no-repeat;
 }
