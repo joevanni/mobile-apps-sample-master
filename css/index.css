@@ -201,10 +201,14 @@ page
  .ui-content
   {
   background-color:rgb(255,209,193)!important;
-  background-size:100% !important; 
+  background-size:100%  !important;
+  min-height: 100%!important;
 
 }
-
+.ui-page {
+      height: 100%!important;
+    }
+   
 .ui-icon-bullets
 {
 	background-image: url(../img/bullets.png) !important;
