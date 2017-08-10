@@ -357,7 +357,7 @@ body {
 	height: 17px !important;
 	float: left;
 	position: absolute;
-	left:130px;
+	left:112px;
 	top:6px;
 
 
@@ -398,5 +398,6 @@ body {
 .newbanner
 {
 	background-image: url(../img/decastro.png)!important;  background-size:100% 130px!important;
-	background-repeat: no-repeat;
+	
+	position:fixed !important;
 }
