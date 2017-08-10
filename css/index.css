@@ -204,7 +204,7 @@ page
  .ui-content
   {
   background-color:rgb(255,209,193)!important;
-  height: 800px !important;
+  background-size:100% !important; 
 
 }
 
