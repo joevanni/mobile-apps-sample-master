@@ -357,7 +357,7 @@ body {
 	height: 17px !important;
 	float: left;
 	position: absolute;
-	left:112px;
+	left:100px;
 	top:6px;
 
 
@@ -399,5 +399,5 @@ body {
 {
 	background-image: url(../img/decastro.png)!important;  background-size:100% 130px!important;
 	
-	position:fixed !important;
+	
 }
