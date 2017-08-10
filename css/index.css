@@ -200,9 +200,11 @@ page
 	 background-color: transparent !important;
     border: none !important;
     box-shadow: none!important;
-
-   
-  
+}
+ .ui-content
+  {
+  background-color:rgb(255,209,193)!important;
+  height: 800px !important;
 
 }
 
